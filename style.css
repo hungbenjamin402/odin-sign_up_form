@@ -16,8 +16,10 @@
 
 #main-header-middle-img {
     position: absolute; 
-    top: 0px; 
-    right: 0px; 
+    width: auto;
+    height: 30%;
+    top: 200px;
+    left: 150px;
     z-index: 1;
 }
 
