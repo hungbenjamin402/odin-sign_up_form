@@ -1,0 +1,109 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9FAFB;
+    height: 100vh;
+}
+
+#main-header-left-img {
+    width: 500px;
+    height: 100vh;
+}
+
+#main-header-middle-img {
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    z-index: 1;
+}
+
+.content {
+    margin: auto;
+}
+
+.user-info-sign-up {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: 300px;
+
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    /* box-shadow: -10px 7px 10px #DCDDDD; */
+    
+}
+
+.upper-header-content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.info-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.info-input .column {
+    margin-right: 100px;
+}    
+
+.sub-column-userInfo label {
+    font-weight: bold;
+}
+
+.sub-column-userInfo,
+input {
+   width: 200px;
+}
+
+.sub-column-userInfo + input:active {
+    border: 2px solid red;
+}
+
+.user-info-sign-up {
+    background-color: ;
+}
+
+.user-info-sign-up h1 {
+    font-size: 25px;
+}
+
+#create-account-button {
+    width: 200px;
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    background-color: #596D48;
+    color: white;
+}
+
+.user-account-action {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.sub-column-userInfo input {
+    margin-top: 5px;
+    height: 25px;
+    border:1px solid;
+    border-radius: 3px;
+}
+
+#create-account-button {
+    border:1px solid;
+    border-radius: 10px;
+}
